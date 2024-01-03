@@ -1,3 +1,7 @@
+/// @file hello_cin
+/// @brief Asks user to input a word and outputs it
+/// @author Erik Fryanov
+
 #include <iostream>
 #include <string>
 using namespace std;

@@ -1,3 +1,7 @@
+/// @file hello
+/// @brief Prints "Hello C++!"
+/// @author Erik Fryanov
+
 #include <iostream>
 int main()
 {
