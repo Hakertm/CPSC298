@@ -1,15 +1,15 @@
 
-## manual testing
+## Proj_HelloCpp
 
 # Developer's Profile
-[GitHub](https://github.com/bonang8)
+[GitHub](https://github.com/Hakertm)
 # License 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description 
-testing to see if project works
+Basic C++ programs for CPSC298 first project
 ------------------
-## Table of Content
+## Table of Contents
 -------------------
 * [Installation](#installation)
 * [Usage](#usage)
@@ -19,28 +19,26 @@ testing to see if project works
 * [Questions](#questions)
 
 ## Installation 
-To install the necessary dependencies, run the following command: 
-npm i
+Download folder.
 
 
 ## Usage 
-know commands
+Compile and run in an IDE of your choice.
 
 ## License 
 [GPL v3 License](https://www.gnu.org/licenses/gpl-3.0)
 
 
 ## Contributing 
-just notify me
+TO DO
 
 ## Tests
-To run tests, run the following command: 
-npm tests
+TO DO
 
 ## Contact me
 Feel free to reach out 
 
 ## Questions 
 If you have any questions about the repo, open an issue or contact me directly
-at csgbonang@gmail.com. You can find more at [csbonang](https://github.com/csbonang). 
+at fryanov@chapman.edu. You can find more at [Hakertm](https://github.com/Hakertm). 
         
