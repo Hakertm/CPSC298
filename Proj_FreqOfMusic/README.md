@@ -1,5 +1,5 @@
 
-## Proj_HelloCpp
+## Proj_FreqOfMusic
 
 # Developer's Profile
 [GitHub](https://github.com/Hakertm)
@@ -7,7 +7,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description 
-Basic C++ programs for CPSC298 first project
+Computes frequencies and wavelengths of specific musical notes and outputs them.
 ------------------
 ## Table of Contents
 -------------------
