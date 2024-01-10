@@ -1,5 +1,5 @@
 
-## Proj_FreqOfMusic
+## Proj_PI
 
 # Developer's Profile
 [GitHub](https://github.com/Hakertm)
@@ -7,7 +7,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description 
-Computes frequencies and wavelengths of specific musical notes and outputs them.
+Computes PI using Leibnatz's formula. One with user input and one without, displaying various values of pi up to 2^20th n value(showing convergence to PI).
 ------------------
 ## Table of Contents
 -------------------
@@ -24,7 +24,7 @@ Download folder.
 
 ## Usage 
 Compile and run in an IDE of your choice.
-g++ musFreq.cpp ./a.out
+g++ (file name).cpp ./a.out
 
 ## License 
 [GPL v3 License](https://www.gnu.org/licenses/gpl-3.0)
