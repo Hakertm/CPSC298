@@ -24,7 +24,7 @@ Download folder.
 
 ## Usage 
 Compile and run in an IDE of your choice.
-g++ (file name, with cpp ext.) ./a.out
+g++ (file name).cpp ./a.out
 
 ## License 
 [GPL v3 License](https://www.gnu.org/licenses/gpl-3.0)
