@@ -24,19 +24,20 @@ Download folder.
 
 ## Usage 
 Compile and run in an IDE of your choice.
+g++ musFreq.cpp ./a.out
 
 ## License 
 [GPL v3 License](https://www.gnu.org/licenses/gpl-3.0)
 
 
 ## Contributing 
-TO DO
+N/A
 
 ## Tests
-TO DO
+N/A
 
-## Contact me
-Feel free to reach out 
+## References
+N/A 
 
 ## Questions 
 If you have any questions about the repo, open an issue or contact me directly
