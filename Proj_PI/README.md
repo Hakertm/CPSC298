@@ -16,6 +16,7 @@ Computes PI using Leibnatz's formula. One with user input and one without, displ
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [References](#refrences)
 * [Questions](#questions)
 
 ## Installation 
