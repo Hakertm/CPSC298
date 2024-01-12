@@ -16,6 +16,7 @@ Computes frequencies and wavelengths of specific musical notes and outputs them.
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [References](#refrences)
 * [Questions](#questions)
 
 ## Installation 
