@@ -1,5 +1,5 @@
 
-## Proj_PI
+## UltMachine
 
 # Developer's Profile
 [GitHub](https://github.com/Hakertm)
@@ -7,7 +7,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description 
-Computes PI using Leibnatz's formula. One with user input and one without, displaying various values of pi up to 2^20th n value(showing convergence to PI).
+Turns on the machine, then immediately turns it off.
 ------------------
 ## Table of Contents
 -------------------
@@ -16,6 +16,7 @@ Computes PI using Leibnatz's formula. One with user input and one without, displ
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [References](#refrences)
 * [Questions](#questions)
 
 ## Installation 
@@ -24,7 +25,7 @@ Download folder.
 
 ## Usage 
 Compile and run in an IDE of your choice.
-g++ (file name).cpp ./a.out
+g++ UltimateMachine.cpp ./a.out
 
 ## License 
 [GPL v3 License](https://www.gnu.org/licenses/gpl-3.0)
