@@ -1,5 +1,5 @@
 
-## Proj_UltMachine
+## Proj_FreqOfMusicLoopsArrays
 
 # Developer's Profile
 [GitHub](https://github.com/Hakertm)
@@ -7,7 +7,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description 
-Turns on the machine, then immediately turns it off.
+Computes frequencies and wavelengths for respective notes.
 ------------------
 ## Table of Contents
 -------------------
@@ -25,7 +25,7 @@ Download folder.
 
 ## Usage 
 Compile and run in an IDE of your choice.
-g++ UltimateMachine.cpp ./a.out
+g++ musFreqLoopsArrays.cpp ./a.out
 
 ## License 
 [GPL v3 License](https://www.gnu.org/licenses/gpl-3.0)
