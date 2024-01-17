@@ -1,5 +1,5 @@
 
-## Proj_FreqOfMusicLoopsArrays
+## Proj_Functions
 
 # Developer's Profile
 [GitHub](https://github.com/Hakertm)
@@ -7,7 +7,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description 
-Computes frequencies and wavelengths for respective notes.
+Automated version of Proj_FreqOfMusicLoopsArrays using functions.
 ------------------
 ## Table of Contents
 -------------------
@@ -25,7 +25,7 @@ Download folder.
 
 ## Usage 
 Compile and run in an IDE of your choice.
-g++ musFreqLoopsArrays.cpp ./a.out
+g++ MusicalNoteImpl.cpp MusicalNoteApi.h ./a.out(.exe instead of .out if using VSCode)
 
 ## License 
 [GPL v3 License](https://www.gnu.org/licenses/gpl-3.0)
