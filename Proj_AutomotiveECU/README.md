@@ -1,5 +1,5 @@
 
-## Proj_Polygons
+## Proj_AutomotiveECU
 
 # Developer's Profile
 [GitHub](https://github.com/Hakertm)
@@ -7,7 +7,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description 
-Example of the concept of inheritance and some polymorphism.
+Electronic control unit simulation of the Mach 5 car with only. Only three buttons.
 ------------------
 ## Table of Contents
 -------------------
@@ -25,7 +25,7 @@ Download folder.
 
 ## Usage 
 Compile and run in an IDE of your choice.
-g++ Polygons.cpp ./a.out(.exe for VS code)
+g++ ecu.cpp ./a.out(.exe for VS code)
 
 ## License 
 [GPL v3 License](https://www.gnu.org/licenses/gpl-3.0)
