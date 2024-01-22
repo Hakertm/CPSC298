@@ -1,5 +1,5 @@
 
-## Proj_Polygons
+## Proj_BattleBoat
 
 # Developer's Profile
 [GitHub](https://github.com/Hakertm)
@@ -7,7 +7,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description 
-Example of the concept of inheritance and some polymorphism.
+Simple C++ game based on battleship. Most of the framework and implementation done/provided by professor Clarisse Bonang
 ------------------
 ## Table of Contents
 -------------------
@@ -25,7 +25,12 @@ Download folder.
 
 ## Usage 
 Compile and run in an IDE of your choice.
-g++ Polygons.cpp ./a.out(.exe for VS code)
+For linux:
+g++ main.cpp Game.cpp ./a.out
+
+For windows:
+g++ main.cpp Game.cpp
+./a.exe
 
 ## License 
 [GPL v3 License](https://www.gnu.org/licenses/gpl-3.0)
@@ -38,7 +43,7 @@ N/A
 N/A
 
 ## References
-N/A 
+My C++ professor, Clarisse Bonang, as most of the code was provide by her beforehand.
 
 ## Questions 
 If you have any questions about the repo, open an issue or contact me directly
