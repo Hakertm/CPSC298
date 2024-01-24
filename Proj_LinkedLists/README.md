@@ -43,7 +43,7 @@ N/A
 N/A
 
 ## References
-My C++ professor, Clarisse Bonang, as most of the code was provide by her beforehand.
+My C++ professor, Clarisse Bonang, as most of the code was provided by her beforehand.
 
 ## Questions 
 If you have any questions about the repo, open an issue or contact me directly
