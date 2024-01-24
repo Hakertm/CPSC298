@@ -1,5 +1,5 @@
 
-## Proj_BattleBoat
+## Proj_LinkedLists
 
 # Developer's Profile
 [GitHub](https://github.com/Hakertm)
@@ -7,7 +7,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description 
-Simple C++ game based on battleship. Most of the framework and implementation done/provided by professor Clarisse Bonang
+Linked list code example, most code provided by professor Clarisse Bonang
 ------------------
 ## Table of Contents
 -------------------
@@ -25,11 +25,11 @@ Download folder.
 
 ## Usage 
 Compile and run in an IDE of your choice.
-For linux:
-g++ main.cpp Game.cpp ./a.out
+For Linux/Mac:
+g++ LinkedList.cpp ./a.out
 
-For windows:
-g++ main.cpp Game.cpp
+For Windows:
+g++ LinkedList.cpp
 ./a.exe
 
 ## License 
