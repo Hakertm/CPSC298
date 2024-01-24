@@ -1,5 +1,5 @@
 
-## Proj_LinkedLists
+## Proj_Inheritance
 
 # Developer's Profile
 [GitHub](https://github.com/Hakertm)
@@ -7,7 +7,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description 
-Linked list and template code example, most code provided by professor Clarisse Bonang
+Inheritance demonstration using a shape class as the base and inheriting two classes from it
 ------------------
 ## Table of Contents
 -------------------
@@ -26,7 +26,7 @@ Download folder.
 ## Usage 
 Compile and run in an IDE of your choice.
 For Linux/Mac:
-g++ LinkedList.cpp ./a.out
+g++ Inheritance.cpp ./a.out
 
 For Windows:
 g++ LinkedList.cpp
@@ -43,7 +43,7 @@ N/A
 N/A
 
 ## References
-My C++ professor, Clarisse Bonang, as most of the code was provide by her beforehand.
+My C++ professor, Clarisse Bonang, as some of the code was provided by her(not directly).
 
 ## Questions 
 If you have any questions about the repo, open an issue or contact me directly
