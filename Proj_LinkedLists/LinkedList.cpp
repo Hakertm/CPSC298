@@ -9,15 +9,16 @@
 
 using namespace std;
 
+template<typename t>
 class Node {
 public:
-	Node(int iData) : m_iData(iData), mp_nodeNext(nullptr) { }
+	Node(t iData) : m_iData(iData), mp_nodeNext(nullptr) { }
 	~Node() { }
 public:
 	// These are declared public so that they can be accessed 
 	// without using member accessor functions.
-	int m_iData;
-	Node* mp_nodeNext;
+	t m_iData;
+	Node<t>* mp_nodeNext;
 
 public:
 	/// Display a list of Node objects to standard output given
@@ -28,9 +29,9 @@ public:
 	/// @param [in] p_nodeHead pointer to Node object that is the
 	/// head node of a list of Node objects. 
 	/// @return void
-	static void displayList(Node* p_nodeHead)
+	static void displayList(Node<t>* p_nodeHead)
 	{
-		Node* p_node = p_nodeHead;
+		Node<t>* p_node = p_nodeHead;
 		// Iterate over the list of Nodes beginning from the
 		// head of the list. Print the data out for each node. 
 		// Then, set p_node to point to the next node in the list.
@@ -57,19 +58,40 @@ public:
 
 int main()
 {
-	// Allocate three node objects within heap memory.
-	Node* p_node1 = new Node(10);
-	Node* p_node2 = new Node(20);
-	Node* p_node3 = new Node(30);
+	{
+		// Allocate three node objects within heap memory.
+		Node<int>* p_node1 = new Node<int>(10);
+		Node<int>* p_node2 = new Node<int>(20);
+		Node<int>* p_node3 = new Node<int>(30);
 
-	// Set p_nodeHead to point to the head or leading node
-	// in the list of nodes, in this case p_node1.
-	Node* p_nodeHead = p_node1;
-	p_node1->mp_nodeNext = p_node2; // append p_node2 to the list of Node objects after p_node1.
-	p_node2->mp_nodeNext = p_node3; // append p_node3 to the list of Node objects after p_node2.
-	p_node3->mp_nodeNext = nullptr; // The end of the list is indicated by a mp_nodeNext value of nullptr.
+		// Set p_nodeHead to point to the head or leading node
+		// in the list of nodes, in this case p_node1.
+		Node<int>* p_nodeHead = p_node1;
+		p_node1->mp_nodeNext = p_node2; // append p_node2 to the list of Node objects after p_node1.
+		p_node2->mp_nodeNext = p_node3; // append p_node3 to the list of Node objects after p_node2.
+		p_node3->mp_nodeNext = nullptr; // The end of the list is indicated by a mp_nodeNext value of nullptr.
 
-	Node::displayList(p_nodeHead);  // display the list of nodes to standard output.
+		Node<int>::displayList(p_nodeHead);  // display the list of nodes to standard output.
+	}
+	
+	{
+		//Double version
+		// Allocate three node objects within heap memory.
+		Node<double>* p_node1 = new Node<double>(10.1);
+		Node<double>* p_node2 = new Node<double>(20.2);
+		Node<double>* p_node3 = new Node<double>(30.3);
+
+		// Set p_nodeHead to point to the head or leading node
+		// in the list of nodes, in this case p_node1.
+		Node<double>* p_nodeHead = p_node1;
+		p_node1->mp_nodeNext = p_node2; // append p_node2 to the list of Node objects after p_node1.
+		p_node2->mp_nodeNext = p_node3; // append p_node3 to the list of Node objects after p_node2.
+		p_node3->mp_nodeNext = nullptr; // The end of the list is indicated by a mp_nodeNext value of nullptr.
+
+		Node<double>::displayList(p_nodeHead);  // display the list of nodes to standard output.
+	}
+
+	return 0;
 }
 
 
