@@ -1,5 +1,5 @@
 
-## Proj_Inheritance
+## Proj_TicTacToe
 
 # Developer's Profile
 [GitHub](https://github.com/Hakertm)
@@ -7,7 +7,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description 
-Inheritance demonstration using a shape class as the base and inheriting two classes from it
+t
 ------------------
 ## Table of Contents
 -------------------
@@ -26,10 +26,10 @@ Download folder.
 ## Usage 
 Compile and run in an IDE of your choice.
 For Linux/Mac:
-g++ Inheritance.cpp ./a.out
+g++ .cpp ./a.out
 
 For Windows:
-g++ LinkedList.cpp
+g++ .cpp
 ./a.exe
 
 ## License 
@@ -43,7 +43,8 @@ N/A
 N/A
 
 ## References
-My C++ professor, Clarisse Bonang, as some of the code was provided by her(not directly).
+My C++ professor, Clarisse Bonang, as lots of the code was provided by her indirectly,
+as well as general assistance with the assignment.
 
 ## Questions 
 If you have any questions about the repo, open an issue or contact me directly
