@@ -7,7 +7,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description 
-t
+Simple playable tic tac toe game. Plays through a console.
 ------------------
 ## Table of Contents
 -------------------
@@ -26,10 +26,11 @@ Download folder.
 ## Usage 
 Compile and run in an IDE of your choice.
 For Linux/Mac:
-g++ .cpp ./a.out
+g++ TicTacToe.cpp main.cpp 
+./a.out
 
 For Windows:
-g++ .cpp
+g++ TicTacToe.cpp main.cpp
 ./a.exe
 
 ## License 
